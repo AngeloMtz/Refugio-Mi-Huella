@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(rgb(233, 181, 99), rgb(215, 151, 60));
+    margin: auto;
+}
+.bg-dark-custom {
+    background-color: #242424;
+}
+.btn-custom {
+    background-color: #b87e3b;
+    color: white;
+}
+.btn-custom-secondary {
+    background-color: #ffeabc;
+    color: #2c2f35;
+}
+.form-control-custom {
+    background-color: #515966;
+    color: white;
+}
+.form-control-custom::placeholder {
+    color: white;
+}
+.input-group-text-custom {
+    background-color: #515966;
+    border: none;
+    color: #ffeabc;
+}
+.disable {
+    background-color: #ffeabc !important;
+    color: #2c2f35 !important;
+}
